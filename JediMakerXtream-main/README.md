@@ -1,2 +1,0 @@
-# JediMakerXtream
- IPTV Bouquet Creator
