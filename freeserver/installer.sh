@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/freeserver/main/installer.sh -O - | /bin/sh
+#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/freeserver/installer.sh -O - | /bin/sh
 
 ##########################################
 version=8.0.4
@@ -9,7 +9,7 @@ TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-overwrite"
 MY_IPK="freeserver_8.0.4_all.ipk"
 MY_DEB="freeserver_8.0.4_all.deb"
-MY_URL="https://raw.githubusercontent.com/emil237/Download/freeserver/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/freeserver"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/freeserver
 
