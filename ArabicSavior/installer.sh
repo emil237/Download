@@ -1,5 +1,5 @@
 #!/bin/sh
-##setup command=wget https://raw.githubusercontent.com/emil237/ArabicSavior/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emil237/Download/main/ArabicSavior/installer.sh -O - | /bin/sh
 
 version=1.8
 
@@ -13,7 +13,7 @@ fi
 cd /tmp
 rm -f *ArabicSavior*
 # Download new version
-wget "https://raw.githubusercontent.com/emil237/plugins/main/ArabicSavior-"$version".tar.gz"
+wget "https://raw.githubusercontent.com/emil237/Download/main/ArabicSavior/ArabicSavior-"$version".tar.gz"
 
 # remove old version
 rm -r /usr/lib/enigma2/python/Plugins/Extensions/ArabicSavior > /dev/null 2>&1
@@ -36,6 +36,7 @@ echo "#########################################################"
 sleep 3
 killall -9 enigma2
 exit 0
+
 
 
 
