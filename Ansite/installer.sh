@@ -3,7 +3,7 @@
 # SCRIPT : DOWNLOAD AND INSTALL ANSITE
 # ###########################################
 #
-# Command: wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/emil237/Download/main/Ansite/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 
@@ -11,7 +11,7 @@
 # Configure where we can find things here #
 TMPDIR='/tmp'
 PACKAGE='enigma2-plugin-extensions-ansite'
-MY_URL='https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/'
+MY_URL='https://raw.githubusercontent.com/emil237/Download/main/Ansite'
 
 ####################
 #  Image Checking  #
@@ -82,3 +82,11 @@ echo "***********************************************************************"
 echo ""
 
 exit 0
+
+
+
+
+
+
+
+
