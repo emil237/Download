@@ -1,2 +1,2 @@
-wget https://raw.githubusercontent.com/emil237/fontmagnifier/main/installer.sh -qO - | /bin/sh
+wget https://raw.githubusercontent.com/emil237/Download/main/FontMagnifier/installer.sh -qO - | /bin/sh
 
