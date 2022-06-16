@@ -1,12 +1,12 @@
 #!/bin/sh
 
-##setup command=wget https://raw.githubusercontent.com/emil237/oscam-revcam/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emil237/Download/main/EMU-CAM/revcam/oscam-revcam/installer.sh -O - | /bin/sh
 #
 echo " download and install emu oscam-revcam "
 
 version=2.0
 OPKGINSTALL=opkg install --force-reinstall
-MY_URL="https://raw.githubusercontent.com/emil237/oscam-revcam/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/EMU-CAM/revcam/oscam-revcam"
 
 MY_IPK_OSCAM_REVCAM="enigma2-plugin-softcams-oscam-revcamV2_11.703-emu-r798_all.ipk"
 ##############################################################################
