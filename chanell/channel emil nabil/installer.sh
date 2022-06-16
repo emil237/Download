@@ -1,5 +1,5 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emil237/channel-emil-nabil/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
+ # # Command: wget https://raw.githubusercontent.com/emil237/Download/main/chanell/channel%20emil%20nabil/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
 MY_URL="https://raw.githubusercontent.com/emil237/channel-emil-nabil/main"  
 echo "******************************************************************************************************************"
 echo "    download and install channel  "
@@ -26,7 +26,7 @@ echo ""
 echo "         install channel    "
 cd /tmp
 set -e 
-wget -q  "https://raw.githubusercontent.com/emil237/channel-emil-nabil/main/channels_backup_by_Emil-Nabil.tar.gz"
+wget -q  "https://raw.githubusercontent.com/emil237/Download/main/chanell/channel%20emil%20nabil/channels_backup_by_Emil-Nabil.tar.gz"
 wait
 tar -xzf channels_backup_by_Emil-Nabil.tar.gz  -C /
 wait
