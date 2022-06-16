@@ -1,12 +1,12 @@
 #!/bin/sh
 
-##setup command=wget https://raw.githubusercontent.com/emil237/epgimport/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emil237/Download/main/EPGImport-mod_1.3_all/installer.sh -O - | /bin/sh
 #
 echo " download and install plugin xstreamity "
 ################################################################################
 version=1.3
 OPKGINSTALL=opkg install --force-overwrite
-MY_URL="https://raw.githubusercontent.com/emil237/epgimport/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/EPGImport-mod_1.3_all"
 MY_IPK="EPGImport-mod_1.3_all.ipk"
 MY_DEB="EPGImport-mod_1.3_all.deb"
 ##############################################################################
@@ -41,68 +41,3 @@ echo "**************************************************************************
 wait
 killall -9 enigma2
 exit 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
