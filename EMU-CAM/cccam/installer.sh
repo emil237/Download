@@ -1,12 +1,12 @@
 #!/bin/sh
 
-##setup command=wget https://raw.githubusercontent.com/emil237/cccam/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emil237/Download/main/EMU-CAM/cccam/installer.sh -O - | /bin/sh
 #
 echo " download and install emu cccam "
 
 version=2.3.9
 OPKGINSTALL=opkg install --force-overwrite
-MY_URL="https://raw.githubusercontent.com/emil237/cccam/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/EMU-CAM/cccam"
 MY_IPK="cccam-all-images_2.3.9_all.ipk"
 MY_DEB="cccam-all-images_2.3.9_all.deb"
 ##############################################################################
