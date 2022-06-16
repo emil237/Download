@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/installer1.sh -O - | /bin/sh
+#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/installer1.sh -O - | /bin/sh
 ##############################################################################
 VERSION=1.4
 PLUGIN_PATH='/usr/lib/enigma2/python/Plugins/Extensions/DreamSat'
@@ -102,7 +102,7 @@ cd /tmp
  
 echo "===> Downloading And Insallling DreamSAtPAneL plugin For Python3.10 Please Wait ......"
 echo
-wget "https://raw.githubusercontent.com/emil237/dreamsat/main/DreamSat-Panel_1.4_py-3.10.tar.gz"
+wget "https://raw.githubusercontent.com/emil237/Download/main/dreamsat/DreamSat-Panel_1.4_py-3.10.tar.gz"
 tar -xzf DreamSat-Panel_1.4_py-3.10.tar.gz -C /
 set +e
 rm -f DreamSat-Panel_1.4_py-3.10.tar.gz
