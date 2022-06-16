@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/installer.sh -O - | /bin/sh
+#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/installer.sh -O - | /bin/sh
 ############################################################################
 VERSION=1.3
 PLUGIN_PATH='/usr/lib/enigma2/python/Plugins/Extensions/DreamSat'
@@ -107,20 +107,20 @@ sleep 1;
 if grep -qs -i 'mips' cat $CHECK ; then
     echo "[ Your device is MIPS ]"
     if [ $PYTHON = "PY3" ]; then
-        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/dreamsat$VERSION-py3-mipsel.tar.gz -O /tmp/dreamsat$VERSION-py3-mipsel.tar.gz
+        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/dreamsat$VERSION-py3-mipsel.tar.gz -O /tmp/dreamsat$VERSION-py3-mipsel.tar.gz
         tar -xzf /tmp/dreamsat$VERSION-py3-mipsel.tar.gz -C /
         rm -f /tmp/dreamsat$VERSION-py3-mipsel.tar.gz
         chmod 0775 $PLUGIN_PATH/ui/*.so
         chmod 0775 $PLUGIN_PATH/core/*.so
         if [ ! -f '/usr/lib/libpython3.7m.so.1.0' ];then
-            wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/libpython3.7-mipsel.tar.gz -O /tmp/libpython3.7-mipsel.tar.gz
+            wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/libpython3.7-mipsel.tar.gz -O /tmp/libpython3.7-mipsel.tar.gz
             tar -xzf /tmp/libpython3.7-mipsel.tar.gz -C /
             rm -f /tmp/libpython3.7-mipsel.tar.gz
             chmod 0775 /usr/lib/libpython3.7m.so.1.0
             echo "Send libpython3.7m"
         fi
     else
-        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/dreamsat$VERSION-py2-mipsel.tar.gz -O /tmp/dreamsat$VERSION-py2-mipsel.tar.gz
+        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/dreamsat$VERSION-py2-mipsel.tar.gz -O /tmp/dreamsat$VERSION-py2-mipsel.tar.gz
         tar -xzf /tmp/dreamsat$VERSION-py2-mipsel.tar.gz -C /
         rm -f /tmp/dreamsat$VERSION-py2-mipsel.tar.gz
         chmod 0775 $PLUGIN_PATH/ui/*.so
@@ -129,20 +129,20 @@ if grep -qs -i 'mips' cat $CHECK ; then
 elif grep -qs -i 'armv7l' cat $CHECK ; then
     echo "[ Your device is armv7l ]"
     if [ $PYTHON = "PY3" ]; then
-        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/dreamsat$VERSION-py3-arm.tar.gz -O /tmp/dreamsat$VERSION-py3-arm.tar.gz
+        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/dreamsat$VERSION-py3-arm.tar.gz -O /tmp/dreamsat$VERSION-py3-arm.tar.gz
         tar -xzf /tmp/dreamsat$VERSION-py3-arm.tar.gz -C /
         rm -f /tmp/dreamsat$VERSION-py3-arm.tar.gz
         chmod 0775 $PLUGIN_PATH/ui/*.so
         chmod 0775 $PLUGIN_PATH/core/*.so
         if [ ! -f '/usr/lib/libpython3.7m.so.1.0' ];then
-            wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/libpython3.7-arm.tar.gz -O /tmp/libpython3.7-arm.tar.gz
+            wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/libpython3.7-arm.tar.gz -O /tmp/libpython3.7-arm.tar.gz
             tar -xzf /tmp/libpython3.7-arm.tar.gz -C /
             rm -f /tmp/libpython3.7-arm.tar.gz
             chmod 0775 /usr/lib/libpython3.7m.so.1.0
             echo "Send libpython3.7m"
         fi
     else
-        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/dreamsat$VERSION-py2-arm.tar.gz -O /tmp/dreamsat$VERSION-py2-arm.tar.gz
+        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/dreamsat$VERSION-py2-arm.tar.gz -O /tmp/dreamsat$VERSION-py2-arm.tar.gz
         tar -xzf /tmp/dreamsat$VERSION-py2-arm.tar.gz -C /
         rm -f /tmp/dreamsat$VERSION-py2-arm.tar.gz
         chmod 0775 $PLUGIN_PATH/ui/*.so
@@ -152,20 +152,20 @@ elif grep -qs -i 'armv7l' cat $CHECK ; then
 elif grep -qs -i 'aarch64' cat $CHECK ; then
     echo "[ Your device is aarch64 ]"
     if [ $PYTHON = "PY3" ]; then
-        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/dreamsat$VERSION-py3-aarch64.tar.gz -O /tmp/dreamsat$VERSION-py3-aarch64.tar.gz
+        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/dreamsat$VERSION-py3-aarch64.tar.gz -O /tmp/dreamsat$VERSION-py3-aarch64.tar.gz
         tar -xzf /tmp/dreamsat$VERSION-py3-aarch64.tar.gz -C /
         rm -f /tmp/dreamsat$VERSION-py3-aarch64.tar.gz
         chmod 0775 $PLUGIN_PATH/ui/*.so
         chmod 0775 $PLUGIN_PATH/core/*.so
         if [ ! -f '/usr/lib/libpython3.7m.so.1.0' ];then
-            wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/libpython3.7-aarch64.tar.gz -O /tmp/libpython3.7-aarch64.tar.gz
+            wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/libpython3.7-aarch64.tar.gz -O /tmp/libpython3.7-aarch64.tar.gz
             tar -xzf /tmp/libpython3.7-aarch64.tar.gz -C /
             rm -f /tmp/libpython3.7-aarch64.tar.gz
             chmod 0775 /usr/lib/libpython3.7m.so.1.0
             echo "Send libpython3.7m"
         fi
     else
-        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/dreamsat$VERSION-py2-aarch64.tar.gz -O /tmp/dreamsat$VERSION-py2-aarch64.tar.gz
+        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/dreamsat$VERSION-py2-aarch64.tar.gz -O /tmp/dreamsat$VERSION-py2-aarch64.tar.gz
         tar -xzf /tmp/dreamsat$VERSION-py2-aarch64.tar.gz -C /
         rm -f /tmp/dreamsat$VERSION-py2-aarch64.tar.gz
         chmod 0775 $PLUGIN_PATH/ui/*.so
@@ -175,21 +175,21 @@ elif grep -qs -i 'aarch64' cat $CHECK ; then
 elif grep -qs -i 'sh4' cat $CHECK ; then
     echo "[ Your device is sh4 ]"
     if [ $PYTHON = "PY3" ]; then
-        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/dreamsat$VERSION-py3-sh4.tar.gz -O /tmp/dreamsat$VERSION-py3-sh4.tar.gz
+        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/dreamsat$VERSION-py3-sh4.tar.gz -O /tmp/dreamsat$VERSION-py3-sh4.tar.gz
         tar -xzf /tmp/dreamsat$VERSION-py3-sh4.tar.gz -C /
         rm -f /tmp/dreamsat$VERSION-py3-sh4.tar.gz
         
         chmod 0775 $PLUGIN_PATH/ui/*.so
         chmod 0775 $PLUGIN_PATH/core/*.so
         if [ ! -f '/usr/lib/libpython3.7m.so.1.0' ];then
-            wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/libpython3.7-sh4.tar.gz -O /tmp/libpython3.7-sh4.tar.gz
+            wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/libpython3.7-sh4.tar.gz -O /tmp/libpython3.7-sh4.tar.gz
             tar -xzf /tmp/libpython3.7-sh4.tar.gz -C /
             rm -f /tmp/libpython3.7-sh4.tar.gz
             chmod 0775 /usr/lib/libpython3.7m.so.1.0
             echo "Send libpython3.7m"
         fi
     else
-        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/dreamsat/main/dreamsat$VERSION-py2-sh4.tar.gz -O /tmp/dreamsat$VERSION-py2-sh4.tar.gz
+        wget -q  "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/dreamsat/dreamsat$VERSION-py2-sh4.tar.gz -O /tmp/dreamsat$VERSION-py2-sh4.tar.gz
         tar -xzf /tmp/dreamsat$VERSION-py2-sh4.tar.gz -C /
         rm -f /tmp/dreamsat$VERSION-py2-sh4.tar.gz
         chmod 0775 $PLUGIN_PATH/ui/*.so
