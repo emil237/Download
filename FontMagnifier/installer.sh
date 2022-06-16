@@ -1,6 +1,6 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emil237/fontmagnifier/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
-MY_URL="https://raw.githubusercontent.com/emil237/fontmagnifier/main"
+ # # Command: wget https://raw.githubusercontent.com/emil237/Download/main/FontMagnifier/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/FontMagnifier"
 MY_PLUGIN="FontMagnifier.tar.gz"
 echo "******************************************************************************************************************"
 echo "    download and install plugin  "
