@@ -16,7 +16,7 @@ cd /tmp
 set -e
 echo "===> Downloading And Installing DreamOSatcamManager plugin Please Wait ......"
 echo
-wget "https://raw.githubusercontent.com/emil237/Download/main/DreamOSatcamManager.tar.gz"
+wget "https://raw.githubusercontent.com/emil237/Download/main/DreamOSatcamManager/DreamOSatcamManager.tar.gz"
 tar -xzf DreamOSatcamManager.tar.gz -C /
 set +e
 rm -f DreamOSatcamManager.tar.gz
