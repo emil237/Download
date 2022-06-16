@@ -8,7 +8,7 @@ echo "==========================================================================
 #####################################################################################
 echo " download and install arabic language    "
 cd /tmp
-wget  "https://raw.githubusercontent.com/emil237/Download/main/arabiclanguage_bo-hlala_all.tar.gz"
+wget  "https://raw.githubusercontent.com/emil237/Download/main/Arabic%20Language/arabiclanguage_bo-hlala_all.tar.gz"
 wait
 echo " install Arabic language "
 tar -xzf arabiclanguage_bo-hlala_all.tar.gz  -C /
