@@ -1,5 +1,5 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
+ # # Command: wget https://raw.githubusercontent.com/emil237/Download/main/chanell/chanell_mnasr/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
 MY_URL=https://raw.githubusercontent.com/emilnabil/channel-mnasr/main  
 echo "******************************************************************************************************************"
 echo "    download and install channel  "
@@ -12,7 +12,7 @@ rm -rf /etc/enigma2/*.radio
 echo "         install channel    "
 cd /tmp
 set -e 
-wget -q  "https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/channels_backup_mnasr.tar.gz"
+wget -q  "https://raw.githubusercontent.com/emil237/Download/main/chanell/chanell_mnasr/channels_backup_mnasr.tar.gz"
 wait
 tar -xzf channels_backup_mnasr.tar.gz  -C /
 wait
