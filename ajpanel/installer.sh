@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/ajpanel/main/installer.sh -O - | /bin/sh
+#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/ajpanel/installer.sh -O - | /bin/sh
 
 ##########################################
 version=5.3.0
@@ -9,7 +9,7 @@ TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-overwrite"
 MY_IPK="enigma2-plugin-extensions-ajpanel_v5.3.0_all.ipk"
 MY_DEB="enigma2-plugin-extensions-ajpanel_v5.3.0_all.deb"
-MY_URL="https://raw.githubusercontent.com/emil237/ajpanel/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/ajpanel"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/AJPan
 
