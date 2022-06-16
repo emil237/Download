@@ -1,4 +1,4 @@
-wget https://raw.githubusercontent.com/emil237/channel-romeh/main/installer.sh -qO - | /bin/sh
+wget https://raw.githubusercontent.com/emil237/Download/main/chanell/channel%20%20romeh/installer.sh -qO - | /bin/sh
 
 
 
