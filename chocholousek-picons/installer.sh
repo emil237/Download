@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/chocholousek-picons/main/installer.sh -O - | /bin/sh
+#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/chocholousek-picons/installer.sh -O - | /bin/sh
 
 ##########################################
 version=5.0
@@ -9,7 +9,7 @@ TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-overwrite"
 MY_IPK="enigma2-plugin-extensions-chocholousek-picons_5.0_all.ipk"
 MY_DEB="enigma2-plugin-extensions-chocholousek-picons_5.0_all.deb"
-MY_URL="https://raw.githubusercontent.com/emil237/chocholousek-picons/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/chocholousek-picons"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/ChocholousekPicons
 
