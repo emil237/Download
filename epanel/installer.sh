@@ -1,6 +1,6 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emil237/epanel/main/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/emil237/Download/main/epanel/installer.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
@@ -9,7 +9,7 @@
 
 MY_IPK_PY2="epanel-py2_5.8_all.ipk"
 MY_IPK_PY3="epanel-py3_5.8_all.ipk"
-MY_URL="https://raw.githubusercontent.com/emil237/epanel/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/epanel"
 PYTHON_VERSION=$(python -c 'import sys; print(sys.version_info[0])')
 
 ######################################################################################
