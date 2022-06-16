@@ -1,5 +1,5 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emil237/channel-romeh/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
+ # # Command: wget https://raw.githubusercontent.com/emil237/Download/main/chanell/channel%20%20romeh/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
 MY_URL="https://raw.githubusercontent.com/emil237/channel-romeh/main"
 echo "******************************************************************************************************************"
 echo "    download and install channel  "
@@ -15,7 +15,7 @@ rm -rf /etc/tuxbox/*.xml
 echo "         install channel    "
 cd /tmp
 set -e 
-wget -q  "https://raw.githubusercontent.com/emil237/channel-romeh/main/channels_backup_by-romeh.tar.gz"
+wget -q  "https://raw.githubusercontent.com/emil237/Download/main/chanell/channel%20%20romeh/channels_backup_by-romeh.tar.gz"
 wait
 tar -xzf channels_backup_by-romeh.tar.gz  -C /
 wait
