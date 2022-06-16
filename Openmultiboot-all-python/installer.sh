@@ -1,13 +1,13 @@
 #!/bin/sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/openmultiboot/main/installer.sh -O - | /bin/sh
+#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/Openmultiboot-all-python/installer.sh -O - | /bin/sh
 
 version=1.3
 #####################################################################################
 TEMPATH=/tmp
 MY_IPK=enigma2-plugin-extensions-openmultiboot_v1.3_all-pyhon.ipk
 MY_DEB=enigma2-plugin-extensions-openmultiboot_v1.3_all-pyhon.deb
-MY_URL="https://raw.githubusercontent.com/emil237/openmultiboot/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/Openmultiboot-all-python"
 ######################################################################################
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/OpenMultiboot
