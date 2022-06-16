@@ -1,12 +1,12 @@
 #!/bin/sh
 
-##setup command=wget https://raw.githubusercontent.com/emil237/ncam-revcam/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emil237/Download/main/EMU-CAM/revcam/ncam-revcam/installer.sh -O - | /bin/sh
 #
 echo " download and install emu ncam-revcam "
 
 version=2.0
 OPKGINSTALL=opkg install --force-reinstall
-MY_URL="https://raw.githubusercontent.com/emil237/ncam-revcam/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/EMU-CAM/revcam/ncam-revcam"
 
 MY_IPK_NCAM_REVCAM="enigma2-plugin-softcams-ncam-revcamV2_12.2_all.ipk"
 ##############################################################################
