@@ -2,14 +2,14 @@
 # ###########################################
 # SCRIPT : DOWNLOAD AND INSTALL PLUGIN JEDIMAKERXTREAM  #
 # ###########################################
-##setup command=wget https://raw.githubusercontent.com/emil237/jedimakerxtream/main/installer.sh -qO - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emil237/Download/main/JediMakerXtream/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 echo "***********************************************************************************************************************"
 # Config script #
 TMPDIR='/tmp'
 VERSION='6.20'
-MY_URL='https://raw.githubusercontent.com/emil237/jedimakerxtream/main'
+MY_URL='https://raw.githubusercontent.com/emil237/Download/main/JediMakerXtream'
 MY_IPK=enigma2-plugin-extensions-jedimakerxtream_6.20_all.ipk
 MY_DEB=enigma2-plugin-extensions-jedimakerxtream_6.20_all.deb
 ####################
