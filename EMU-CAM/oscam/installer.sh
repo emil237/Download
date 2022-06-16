@@ -1,11 +1,11 @@
 #!/bin/sh
 
-##setup command=wget https://raw.githubusercontent.com/emil237/oscam/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emil237/Download/main/EMU-CAM/oscam/installer.sh -O - | /bin/sh
 #
 echo " download and install oscam emu "
 version=11.704
 OPKGINSTALL=opkg install --force-overwrite
-MY_URL="https://raw.githubusercontent.com/emil237/oscam/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/EMU-CAM/oscam"
 MY_IPK="enigma2-plugin-softcams-oscam_11.704-emu-r798_all.ipk"
 MY_DEB="enigma2-plugin-softcams-oscam_11.704-emu-r798_all.deb"
 ##############################################################################
