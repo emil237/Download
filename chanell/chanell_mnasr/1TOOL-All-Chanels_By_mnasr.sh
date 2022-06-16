@@ -1,2 +1,2 @@
-wget https://raw.githubusercontent.com/emilnabil/channel-mnasr/main/installer.sh -qO - | /bin/sh
-
+wget 
+https://raw.githubusercontent.com/emil237/Download/main/chanell/chanell_mnasr/installer.sh -qO - | /bin/sh
