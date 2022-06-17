@@ -1,12 +1,12 @@
 #!/bin/sh
 
-##setup command=wget https://raw.githubusercontent.com/emil237/xtreamity/main/installer.sh -O - | /bin/sh
+##setup command=wget https://raw.githubusercontent.com/emil237/Download/main/xstreamity/installer.sh -O - | /bin/sh
 #
 echo " download and install plugin xstreamity "
 ################################################################################
 version=3.68
 OPKGINSTALL=opkg install --force-overwrite
-MY_URL="https://raw.githubusercontent.com/emil237/xtreamity/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/xstreamity"
 MY_IPK="xstreamity_3.68_all.ipk"
 MY_DEB="xstreamity_3.68_all.deb"
 ##############################################################################
