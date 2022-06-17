@@ -1,6 +1,6 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emil237/fonts/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
-MY_URL="https://raw.githubusercontent.com/emil237/fonts/main"
+ # # Command: wget https://raw.githubusercontent.com/emil237/Download/main/fonts%20%26%20skin.xml/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/fonts%20%26%20skin.xml"
 MY_PLUGIN="fonts.tar.gz"
 echo "******************************************************************************************************************"
 echo "    download and install fonts  "
