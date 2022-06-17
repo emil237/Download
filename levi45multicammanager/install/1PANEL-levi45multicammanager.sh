@@ -1,4 +1,4 @@
-wget https://raw.githubusercontent.com/emil237/levi45multicammanager/main/installer.sh -O - | /bin/sh
+wget https://raw.githubusercontent.com/emil237/Download/main/levi45multicammanager/installer.sh -O - | /bin/sh
 
 
 
