@@ -3,7 +3,7 @@
 #wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/ajpanel/installer.sh -O - | /bin/sh
 
 ##########################################
-version=5.3.0
+version=5.4.2
 #############################################################
 TEMPATH=/tmp
 OPKGINSTALL="opkg install --force-overwrite"
