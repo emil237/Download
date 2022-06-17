@@ -2,14 +2,14 @@
 # ###########################################
 # SCRIPT : DOWNLOAD AND INSTALL XcPlugin Forever #
 # ###########################################
-# Command: wget https://raw.githubusercontent.com/emil237/xcplugin/main/installer.sh -qO - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/emil237/Download/main/xcplugin/installer.sh -qO - | /bin/sh
 #
 # ###########################################
 echo "***********************************************************************************************************************"
 # Config script #
 TMPDIR='/tmp'
 VERSION='2.2'
-MY_URL='https://raw.githubusercontent.com/emil237/xcplugin/main'
+MY_URL='https://raw.githubusercontent.com/emil237/Download/main/xcplugin'
 MY_IPK="enigma2-plugin-extensions-xcplugin-forever_2.2_all.ipk"
 MY_DEB="enigma2-plugin-extensions-xcplugin-forever_2.2_all.deb"
 ####################
@@ -60,30 +60,5 @@ wait
 init 4
 init 3
 exit 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
