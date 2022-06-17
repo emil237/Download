@@ -1,4 +1,4 @@
-wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/iptosat/main/installer.sh -O - | /bin/sh
+wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/iptosat/installer.sh -O - | /bin/sh
 
 
 
