@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/footonsat/main/install.sh -O - | /bin/sh
+#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/footonsat/install.sh -O - | /bin/sh
 VERSION=1.6
 PLUGIN_PATH='/usr/lib/enigma2/python/Plugins/Extensions/FootOnSat'
 DB_PATH='/usr/lib/enigma2/python/Plugins/Extensions/FootOnSat/db'
@@ -125,7 +125,7 @@ else
 fi
 
 if [ $OS = "Opensource" ]; then
-    wget "--no-check-certificate" "https://raw.githubusercontent.com/emil237/FootOnsat/main/enigma2-plugin-extensions-footonsat_$VERSION.ipk?raw=true" -O "/tmp/enigma2-plugin-extensions-footonsat_$VERSION.ipk";
+    wget "--no-check-certificate" "https://raw.githubusercontent.com/emil237/Download/main/footonsat/enigma2-plugin-extensions-footonsat_$VERSION.ipk?raw=true" -O "/tmp/enigma2-plugin-extensions-footonsat_$VERSION.ipk";
     opkg install /tmp/enigma2-plugin-extensions-footonsat_$VERSION.ipk
     rm -f /tmp/enigma2-plugin-extensions-footonsat_$VERSION.ipk
 else
