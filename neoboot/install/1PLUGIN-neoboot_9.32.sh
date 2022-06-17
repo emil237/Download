@@ -1,2 +1,2 @@
-wget https://raw.githubusercontent.com/emil237/neoboot/main/installer.sh -O - | /bin/sh
+wget https://raw.githubusercontent.com/emil237/Download/main/neoboot/installer.sh -O - | /bin/sh
 
