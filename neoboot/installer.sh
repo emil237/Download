@@ -1,6 +1,6 @@
 #!/bin/sh 
 ##########
-####command=wget https://raw.githubusercontent.com/emil237/neoboot/main/installer.sh -O - | /bin/sh
+####command=wget https://raw.githubusercontent.com/emil237/Download/main/neoboot/installer.sh -O - | /bin/sh
 ###
 ###########################################
 ##### remove old version ##### 
@@ -11,7 +11,7 @@ cd /tmp
 echo ' remove preview files '
 rm -rf * > /dev/null 2>&1
 echo "download plugins "
-wget "https://raw.githubusercontent.com/emil237/neoboot/main/neoboot_9.32_all.ipk" 
+wget "https://raw.githubusercontent.com/emil237/Download/main/neoboot/neoboot_9.32_all.ipk" 
 
 ###########################################
  echo " install plugin "
