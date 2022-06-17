@@ -1,13 +1,13 @@
 #!/bin/sh
 
-#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/iptosat/main/installer.sh -O - | /bin/sh
+#wget -q "--no-check-certificate" https://raw.githubusercontent.com/emil237/Download/main/iptosat/installer.sh -O - | /bin/sh
 
 version=1.8
 #############################################################
 TEMPATH=/tmp
 MY_IPK=enigma2-plugin-extensions-iptosat_1.8_all.ipk
 MY_DEB=enigma2-plugin-extensions-iptosat_1.8.deb
-MY_URL="https://raw.githubusercontent.com/emil237/iptosat/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/iptosat"
 # remove old version #
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/IPtoSAT
 ###########################################
