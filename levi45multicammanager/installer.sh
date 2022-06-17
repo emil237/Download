@@ -2,14 +2,14 @@
 # ###########################################
 # SCRIPT : DOWNLOAD AND INSTALL Levi45MulticamManager  #
 # ###########################################
-# Command: wget https://raw.githubusercontent.com/emil237/levi45multicammanager/main/installer.sh -O - | /bin/sh
+# Command: wget https://raw.githubusercontent.com/emil237/Download/main/levi45multicammanager/installer.sh -O - | /bin/sh
 #
 # ###########################################
 echo "***********************************************************************************************************************"
 # Config script #
 TMPDIR='/tmp'
 VERSION='9.5'
-MY_URL='https://raw.githubusercontent.com/emil237/levi45multicammanager/main'
+MY_URL='https://raw.githubusercontent.com/emil237/Download/main/levi45multicammanager'
 MY_IPK="levi45multicammanager_9.5_all.ipk"
 MY_DEB="levi45multicammanager_9.5_all.deb"
 ####################
@@ -60,41 +60,4 @@ init 4
 wait
 init 3
 exit 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
