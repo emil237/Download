@@ -1,6 +1,6 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emil237/xtraevent/main/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/emil237/Download/main/xtravent/installer.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
@@ -9,7 +9,7 @@
 
 MY_IPK_PY2="xtraevent-py2_2.1_all.ipk"
 MY_IPK_PY3="xtraevent-py3_2.0_all.ipk"
-MY_URL="https://raw.githubusercontent.com/emil237/xtraevent/main"
+MY_URL="https://raw.githubusercontent.com/emil237/Download/main/xtravent"
 PYTHON_VERSION=$(python -c 'import sys; print(sys.version_info[0])')
 
 ######################################################################################
